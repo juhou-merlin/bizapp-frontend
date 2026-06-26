@@ -1,5 +1,5 @@
 # S2I ビルド時の設定
-# Node.js S2Iビルダーイメージが前工程でビルド済みの成果物を使用してアプリを起動する
+# Node.js S2Iビルダーイメージで Next.js の本番ビルドを作成してからアプリを起動する
 # v0.1仕様: Node.js 24固定
-NPM_BUILD=
+NPM_BUILD=build
 NPM_RUN=start
